@@ -246,6 +246,13 @@
 8. 复制 seed.config 文件内所有内容到 configs 目录对应文件中覆盖就可以了
 
    **如果看不懂编译界面可以参考 YouTube 视频：[软路由固件 OpenWrt 编译界面设置](https://www.youtube.com/watch?v=jEE_J6-4E3Y&list=WL&index=7)**
+
+9. 执行编译
+
+   ```bash
+   make download -j8
+   make V=s -j1
+   ```  
 </details>
 
 
